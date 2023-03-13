@@ -6,9 +6,65 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #0f0f0f;
+  color: white;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.benefit-main{
+  color: #F42053;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.benefit-image{
+  margin-top: 5%;
+  display: flex;
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.middle{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  
+}
+
+.middle-img{
+  padding: 10px;
+}
+.middle-text{
+  width: 40%;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.btn > button{
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px;
+  cursor: pointer;
+}
+.btn-1{
+  background-color: #F42053;
+}
+.btn-2{
+  background-color:#FB9752;
+}
+.btn-3{
+  background-color: #F42053;
 }
