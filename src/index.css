@@ -14,9 +14,7 @@ code {
     monospace;
 }
 
-.App{
-  padding: 30px;
-}
+
 /* Latest page */
 
 .latest-main{
@@ -24,6 +22,8 @@ code {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-image: url('bg-1.png');
+  background-repeat: no-repeat, no-repeat;
 }
 
 .latest-image{
@@ -54,6 +54,11 @@ code {
 
 .middle-text{
   width: 40%;
+  color: black;
+}
+
+.middle-text > h4{
+  color: black;
 }
 
 .footer{
@@ -92,6 +97,11 @@ code {
 
 /* Benefit page */
 .benefits-main{
+  background-image: url('bg-1.png');
+  background-repeat: no-repeat, no-repeat;
+}
+
+.heading{
   padding: 50px;
 }
 .table{
@@ -99,14 +109,17 @@ code {
   justify-content: space-evenly;
 }
 
-h3, h1 {
+ h1, h2, h3, h4 {
   color: #F42053;
 }
-
+.follow{
+  padding: 50px;
+}
 .follow-bottom{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  
 }
 
 .follow-bottom > button {
@@ -118,6 +131,8 @@ h3, h1 {
   cursor: pointer;
 }
 
+
+/* footer from appJS */
 .follow-footer{
   display: flex;
   align-items: center;
@@ -126,4 +141,8 @@ h3, h1 {
   gap: 50px;
   padding: 50px;
   height: 1px;
+}
+
+.follow-footer > h2 {
+  color: white;
 }
