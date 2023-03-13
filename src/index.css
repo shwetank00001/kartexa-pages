@@ -5,8 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #0f0f0f;
-  color: white;
+  /* background-color: #0f0f0f; */
+  /* color: white; */
 }
 
 code {
@@ -14,17 +14,25 @@ code {
     monospace;
 }
 
-.benefit-main{
+.App{
+  padding: 60px;
+}
+/* Latest page */
+
+.latest-main{
   color: #F42053;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.benefit-image{
-  margin-top: 5%;
+.latest-image{
+  margin: 5%;
   display: flex;
 }
+
+
+/* People page */
 
 .header{
   display: flex;
@@ -36,7 +44,7 @@ code {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  
+  margin-top: 1%;
 }
 
 .middle-img{
@@ -61,16 +69,49 @@ code {
 .btn > button{
   color: white;
   padding: 10px;
-  border-radius: 10px;
+  border-radius: 8px;
   border: 2px;
   cursor: pointer;
+  gap: 20px;
 }
 .btn-1{
   background-color: #F42053;
+  margin: 10px;
 }
 .btn-2{
   background-color:#FB9752;
+  margin: 10px;
 }
 .btn-3{
   background-color: #F42053;
+  margin: 10px; 
+}
+
+
+/* Benefit page */
+.benefits-main{
+  padding: 50px;
+}
+.table{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+h3, h1 {
+  color: #F42053;
+}
+
+.follow-bottom{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.follow-bottom > button {
+  background-color: #F42053;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  border: 2px;
+  cursor: pointer;
 }

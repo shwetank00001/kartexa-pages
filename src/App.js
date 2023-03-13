@@ -1,5 +1,6 @@
-// import Latest from './components/Latest'
+import Latest from './components/Latest'
 import People from './components/People'
+import Benefits from './components/Benefits'
 
 
 function App() {
@@ -7,8 +8,9 @@ function App() {
 
 
     <div className="App">
-      {/* <Latest /> */}
+      <Latest />
       <People />
+      <Benefits />
     </div>
   );
 }
