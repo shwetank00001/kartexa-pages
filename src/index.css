@@ -15,7 +15,7 @@ code {
 }
 
 .App{
-  padding: 60px;
+  padding: 30px;
 }
 /* Latest page */
 
@@ -29,6 +29,7 @@ code {
 .latest-image{
   margin: 5%;
   display: flex;
+  gap: 60px;
 }
 
 
@@ -50,6 +51,7 @@ code {
 .middle-img{
   padding: 10px;
 }
+
 .middle-text{
   width: 40%;
 }
@@ -114,4 +116,14 @@ h3, h1 {
   border-radius: 8px;
   border: 2px;
   cursor: pointer;
+}
+
+.follow-footer{
+  display: flex;
+  align-items: center;
+  background-color: #F42053;
+  color: white;
+  gap: 50px;
+  padding: 50px;
+  height: 1px;
 }

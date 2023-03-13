@@ -6,13 +6,12 @@ const Latest = () => {
         <h1>Latest EDFLING Blogs</h1>
 
         <div className='latest-image'>
-          <div>
-            <img src='./image/first.png' alt='1st' />
-          </div>
-          <div>
-            <img src='./image/second.png' alt='1st' />
-          </div>
+
+          <img src='./image/first.png' alt='1st' />
+          <img src='./image/second.png' alt='1st' />
+
         </div>
+
     </div>
   )
 }
