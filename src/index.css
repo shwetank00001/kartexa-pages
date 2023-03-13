@@ -48,10 +48,16 @@ code {
 
 .footer{
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   padding: 10px;
+  margin: 10px;
 }
 
+.btn{
+  
+  margin: 10px;
+  padding: 50px;
+}
 .btn > button{
   color: white;
   padding: 10px;
