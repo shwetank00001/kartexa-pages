@@ -69,7 +69,6 @@ code {
 }
 
 .btn{
-  
   margin: 10px;
   padding: 50px;
 }
@@ -80,6 +79,7 @@ code {
   border: 2px;
   cursor: pointer;
   gap: 20px;
+  width: 200px;
 }
 .btn-1{
   background-color: #F42053;
@@ -102,7 +102,7 @@ code {
 }
 
 .heading{
-  padding: 50px;
+  margin-left: 20px;
 }
 .table{
   display: flex;
@@ -113,13 +113,12 @@ code {
   color: #F42053;
 }
 .follow{
-  padding: 50px;
+  margin-left: 20px;
 }
 .follow-bottom{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  
 }
 
 .follow-bottom > button {
@@ -132,17 +131,18 @@ code {
 }
 
 
-/* footer from appJS */
+/* footer from footer */
 .follow-footer{
   display: flex;
   align-items: center;
   background-color: #F42053;
   color: white;
   gap: 50px;
-  padding: 50px;
-  height: 1px;
+  
+
 }
 
 .follow-footer > h2 {
   color: white;
+  margin-left: 20px;
 }
