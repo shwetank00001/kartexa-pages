@@ -14,6 +14,113 @@ code {
     monospace;
 }
 
+button{
+  color: white;
+  background-color: #F42053;
+  border-radius: 10px;
+
+}
+
+/* this is the first poage */
+.first-main{
+  display: flex;
+  margin-top: 100px;
+
+}
+
+.first-text{
+  border: 2px solid black;
+  width: 40%;
+  padding: 10px;
+  margin-left: 40px;
+  margin-top: 100px;
+
+}
+
+.first-text > h1 {
+  color: black;
+}
+.button-first{
+
+  display: flex;
+  padding: 10px;
+}
+.button-chat{
+  width: 150px;
+  height: 40px;
+  background: #F42053;
+  border-radius: 10px;
+}
+
+.button-book{
+  width: 150px;
+  height: 40px;
+  background: #FB9752;
+  border-radius: 10px;
+  margin-left: 30px;
+}
+
+.first-image > img{
+width: 557.83px;
+height: 588.32px;
+
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+/* this is third page */
+
+.third-main{
+  padding: 10px;
+  margin: 30px;
+
+}
+.private-row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.private-row > button{
+  padding: 20px;
+  display: flex;
+  height: 50px;
+  align-items: center;
+}
+.session-row{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.session-row > button{
+  padding: 20px;
+  display: flex;
+  height: 50px;
+  align-items: center;
+}
+
+
+.third-middle{
+  display: flex;
+  justify-content: center;
+}
+
+.third-bottom{
+  display: flex;
+  justify-content: space-evenly;
+  /* border: 2px solid black; */
+}
+
+.third-bottom-1{
+    /* border: 2px solid black; */
+    margin: 10px;
+    padding: 10px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 
 /* Latest page */
 
