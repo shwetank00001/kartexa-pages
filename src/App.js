@@ -10,12 +10,12 @@ function App() {
   return (
 
       <div>
+        <First />
         <Third />
-        {/* <First />
         <Latest />
         <People />
         <Benefits />
-        <Footer /> */}
+        <Footer />
       </div>
 
 

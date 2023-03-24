@@ -7,13 +7,17 @@ const Third = () => {
 
         <div className='private-row'>
             <button>Private & confidential</button>
-            <h1>2</h1>
-
+            <div className=''>
+                <h1>2</h1>
+            </div>
+            
             <button>Anonymous Discussion</button>
             <h1>4</h1>
         </div>
         <div className='session-row'>
-            <h1>1</h1>
+            <div className='numbers'>
+                <h1>1</h1>
+            </div>
             <button>25 lak + session conducted</button>
 
             <h1>4</h1>

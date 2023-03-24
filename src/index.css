@@ -29,11 +29,12 @@ button{
 }
 
 .first-text{
-  border: 2px solid black;
   width: 40%;
   padding: 10px;
   margin-left: 40px;
   margin-top: 100px;
+  background-image: url('ec.png');
+  background-repeat: no-repeat, no-repeat;
 
 }
 
@@ -41,23 +42,26 @@ button{
   color: black;
 }
 .button-first{
-
   display: flex;
-  padding: 10px;
+
 }
 .button-chat{
   width: 150px;
   height: 40px;
   background: #F42053;
+  border: #F42053;  
   border-radius: 10px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.07),0 1px 50px 0 rgba(0,0,0,0.1);
 }
 
 .button-book{
   width: 150px;
   height: 40px;
   background: #FB9752;
+  border: #F42053;
   border-radius: 10px;
   margin-left: 30px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.07),0 1px 50px 0 rgba(0,0,0,0.1);
 }
 
 .first-image > img{
@@ -74,22 +78,27 @@ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   margin: 30px;
 
 }
+
 .private-row{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
+  width: 95%;
 }
 .private-row > button{
   padding: 20px;
   display: flex;
   height: 50px;
   align-items: center;
+
 }
+
 .session-row{
   display: flex;
-  justify-content: space-between;
-  margin-top: 20px;
+  justify-content: space-evenly;
   align-items: center;
+  width: 96%;
+  margin-left: 80px;
 }
 
 .session-row > button{
